@@ -79,3 +79,6 @@ skills:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+include:
+  - CNAME
