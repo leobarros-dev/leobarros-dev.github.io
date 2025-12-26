@@ -367,14 +367,16 @@ $grid-min-width: 250px;
       text-decoration: none;
       transition: all $transition-slow;
       svg {
+        width: 100%;
+        height: 100%;
         fill: $color-text;
       }
       &:hover {
         background: $color-dark;
         border-color: $color-dark;
-      svg {
-        fill: $color-white;
-      }
+        svg {
+          fill: $color-white;
+        }
       }
     }
   }
