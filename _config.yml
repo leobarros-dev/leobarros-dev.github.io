@@ -35,7 +35,6 @@ quote: Talk is cheap. Show me the code.
 # Build settings
 theme: minima
 plugins:
-  - jekyll-archives
   - jekyll-feed
   - jekyll-gist
   - jekyll-include-cache
