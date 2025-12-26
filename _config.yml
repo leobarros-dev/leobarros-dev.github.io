@@ -30,6 +30,8 @@ lang: "pt-BR"
 twitter_username: leobarros-dev
 github_username:  leobarros-dev
 
+quote: Talk is cheap. Show me the code.
+
 # Build settings
 theme: minima
 plugins:
