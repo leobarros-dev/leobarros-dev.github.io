@@ -26,13 +26,20 @@ description: >- # this means to ignore newlines until "baseurl:"
   com foco em código manutenível e bem estruturado.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+lang: "pt-BR"
 twitter_username: leobarros-dev
 github_username:  leobarros-dev
 
 # Build settings
 theme: minima
 plugins:
+  - jekyll-archives
   - jekyll-feed
+  - jekyll-gist
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Informações de contato
 phone: +5592999962948
@@ -59,6 +66,8 @@ skills:
   sass: true
   wordpress: true
   linux: true
+
+google_analytics: G-KGT6WRNH8N
 
 # Exclude from processing.
 # The following items will not be processed, by default.
