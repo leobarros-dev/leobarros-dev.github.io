@@ -16,6 +16,10 @@ gem "minima", "~> 2.5"
 
 # The Retry middleware
 #gem 'faraday-retry'
+gem "logger"
+gem "csv"
+gem "base64"
+gem "ostruct"
 
 # Plugins necessários e dependências extras
 group :jekyll_plugins do
